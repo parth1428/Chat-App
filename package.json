@@ -9,8 +9,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "openssl": "^2.0.0"
-  }
+  "description": ""
 }
