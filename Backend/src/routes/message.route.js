@@ -8,7 +8,7 @@ const router = express.Router();
 router.get("/user", protectRoute, getUsersForSidebar);
 
 // Parameterized routes with explicit parameter names
-router.get("/chat/:userId", protectRoute, getMessages);
-router.post("/send/:userId", protectRoute, sendMessage);
+router.get("/:userId/messages", protectRoute, getMessages);
+router.post("/:userId/send", protectRoute, sendMessage);
 
 export default router;
